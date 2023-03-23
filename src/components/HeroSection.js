@@ -9,7 +9,7 @@ import PlayCircleOutlineOutlinedIcon from '@mui/icons-material/PlayCircleOutline
 function HeroSection() {
   return <>
   
-  <Box sx={{backgroundColor:"#F9F5FF",display:"flex",gap:2,borderRadius:"16px",padding:"4px",width:"325px",alignItems:"center",margin:{xs:"50px auto 0px auto",sm:"70px auto 0px auto"},textAlign:"center",justifyContent:"center"}}>
+  <Box sx={{backgroundColor:"#F9F5FF",display:"flex",gap:2,borderRadius:"16px",padding:"4px",width:{xs:"95%",sm:"325px"},alignItems:"center",margin:{xs:"50px auto 0px auto",sm:"70px auto 0px auto"},textAlign:"center",justifyContent:"center"}}>
 
    <Box sx={{backgroundColor:"#FFFFFF",borderRadius:"16px",padding:"8px 12px"}}><p style={{margin:0,fontSize:"12px",color:"#6941C6",fontWeight:600}}>New feature</p></Box>
    <Box><p style={{margin:0,fontSize:"12px",gap:2,color:"#6941C6",fontWeight:600}}>Check out the team dashboard <ArrowForwardIcon sx={{color:"#6941C6",verticalAlign:"middle",ml:1,cursor:"pointer"}}/></p></Box>

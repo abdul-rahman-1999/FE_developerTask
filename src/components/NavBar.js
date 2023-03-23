@@ -14,7 +14,7 @@ const drawerWidth = 240;
 function NavBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
-  const [open, setOpen] = React.useState(false);
+
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -113,35 +113,11 @@ function NavBar(props) {
 
           <Typography
             variant="p"
-            sx={{ fontWeight:600,color:"#667085",fontSize:"14px",cursor:"pointer"}} onClick={() => setOpen(!open)}
+            sx={{ fontWeight:600,color:"#667085",fontSize:"14px",cursor:"pointer"}}
           >
             Products <KeyboardArrowDownIcon sx={{color:"#667085",ml:0.5,verticalAlign:"middle"}}/>
           </Typography>
 
-{
-  open === true ?           <Box>
-  <Typography
-    variant="p"
-    sx={{ fontWeight:600,color:"#667085",fontSize:"14px",cursor:"pointer",mt:"2px" }}
-  >
-    Home
-  </Typography>
-  <Typography
-    variant="p"
-    sx={{ fontWeight:600,color:"#667085",fontSize:"14px",cursor:"pointer",mt:"2px" }}
-  >
-    Home
-  </Typography>
-  <Typography
-    variant="p"
-    sx={{ fontWeight:600,color:"#667085",fontSize:"14px",cursor:"pointer",mt:"2px" }}
-  >
-    Home
-  </Typography>
-  </Box>
-  :
-  null
-}
 
           <Typography
             variant="p"

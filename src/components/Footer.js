@@ -7,11 +7,11 @@ function Footer() {
 
   {/* Footer Content */}
   
-  <Box sx={{padding:{xs:"40px",sm:"60px"}}}>
+  <Box sx={{padding:{xs:"40px 20px",sm:"60px 30px"}}}>
 
-   <Box sx={{display:"flex",alignItems:"center",justifyContent:{xs:"space-between",sm:"start",md:"space-between"},flexWrap:"wrap",width:{xs:"90%",sm:"85%"},margin:"0px auto",gap:{xs:7,sm:10,md:0}}}>
+   <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",width:{xs:"90%",sm:"85%"},margin:"0px auto",gap:4}}>
 
-    <Box>
+    <Box sx={{width:"125px"}}>
 
     <Typography sx={{fontSize:{xs:"14px",sm:"14px"},fontWeight:600,color:"#98A2B3",fontFamily:"Inter",cursor:"pointer"}}>Product</Typography>
     <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:500,color:"#667085",fontFamily:"Inter",mt:"12px",cursor:"pointer"}}>Overview</Typography>
@@ -23,7 +23,7 @@ function Footer() {
 
     </Box>
 
-    <Box>
+    <Box sx={{width:"125px"}}>
 
 <Typography sx={{fontSize:{xs:"14px",sm:"14px"},fontWeight:600,color:"#98A2B3",fontFamily:"Inter",cursor:"pointer"}}>Company</Typography>
 <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:500,color:"#667085",fontFamily:"Inter",mt:"12px",cursor:"pointer"}}>About us</Typography>
@@ -35,7 +35,7 @@ function Footer() {
 
 </Box>
 
-<Box>
+<Box sx={{width:"125px"}}>
 
 <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:600,color:"#98A2B3",fontFamily:"Inter",cursor:'pointer'}}>Resources</Typography>
 <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:500,color:"#667085",fontFamily:"Inter",mt:"12px",cursor:'pointer'}}>Blog</Typography>
@@ -47,7 +47,7 @@ function Footer() {
 
 </Box>
 
-<Box>
+<Box sx={{width:"125px"}}>
 
 <Typography sx={{fontSize:{xs:"14px",sm:"14px"},fontWeight:600,color:"#98A2B3",fontFamily:"Inter",cursor:"pointer"}}>Use Cases</Typography>
 <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:500,color:"#667085",fontFamily:"Inter",mt:"12px",cursor:"pointer"}}>Startups</Typography>
@@ -59,7 +59,7 @@ function Footer() {
 
 </Box>
 
-<Box>
+<Box sx={{width:"125px"}}>
 
 <Typography sx={{fontSize:{xs:"14px",sm:"14px"},fontWeight:600,color:"#98A2B3",fontFamily:"Inter",cursor:"pointer"}}>Social</Typography>
 <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:500,color:"#667085",fontFamily:"Inter",mt:"12px",cursor:"pointer"}}>Twitter</Typography>
@@ -71,7 +71,7 @@ function Footer() {
 
 </Box>
 
-<Box>
+<Box sx={{width:"125px"}}>
 
 <Typography sx={{fontSize:{xs:"14px",sm:"14px"},fontWeight:600,color:"#98A2B3",fontFamily:"Inter",cursor:"pointer"}}>Legal</Typography>
 <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:500,color:"#667085",fontFamily:"Inter",mt:"12px",cursor:"pointer"}}>Terms</Typography>

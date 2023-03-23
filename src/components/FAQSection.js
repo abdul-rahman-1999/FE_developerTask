@@ -15,7 +15,7 @@ function FAQSection() {
   <Box sx={{display:"flex",flexDirection:"column",alignItems:"center",width:{xs:"85%",sm:"65%",md:"50%"},margin:"0px auto",padding:{xs:"40px 0px 0px 0px",sm:"60px 0px 0px 0px"}}}>
 
   <Typography sx={{fontSize:{xs:"30px",sm:"30px"},fontWeight:600,color:"black",lineHeight:{xs:"40px",sm:"44px"},margin:"0px auto",textAlign:"center",fontFamily:"Inter",width:{xs:"85%",sm:"80%"}}}>Frequently asked questions</Typography>
-  <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:400,color:"#667085",lineHeight:"24px",width:{xs:"85%",sm:"60%"},margin:"10px auto",textAlign:"center",fontFamily:"Inter"}}>Everything you need to know about the product and billing.</Typography>
+  <Typography sx={{fontSize:{xs:"14px",sm:"14px",md:"16px"},fontWeight:400,color:"#667085",lineHeight:"24px",width:{xs:"85%",sm:"60%"},margin:"10px auto",textAlign:"center",fontFamily:"Inter"}}>Everything you need to know about the product and billing.</Typography>
 
 
   <Box sx={{padding:"10px 0px 30px 0px",borderBottom:"1px solid #F2F2F2",width:"95%"}}>
@@ -74,7 +74,7 @@ function FAQSection() {
 
 <Typography sx={{fontSize:{xs:"16px",sm:"18px"},fontWeight:600,color:"black",margin:"0px auto",textAlign:"center",fontFamily:"Inter",width:"90%",mt:"12px"}}>Still have questions?</Typography>
     <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:400,color:"#667085",lineHeight:{xs:"26px",sm:"28px"},margin:"10px auto",textAlign:"center",fontFamily:"Inter",width:{xs:"80%",sm:"100%"}}}>Can’t find the answer you’re looking for? Please chat to our friendly team.</Typography>
-    <Button variant="contained" sx={{backgroundColor:"#7F56D9",width:{xs:"45%",sm:"25%",md:"15%"},padding:"08px 20px",mt:"12px","&:hover" : {backgroundColor:"#7F56D9"},textTransform:"none"}}>Get in Touch</Button>
+    <Button variant="contained" sx={{backgroundColor:"#7F56D9",width:{xs:"55%",sm:"25%",md:"18%"},padding:"08px 20px",mt:"12px","&:hover" : {backgroundColor:"#7F56D9"},textTransform:"none"}}>Get in Touch</Button>
 
      </Box>
 

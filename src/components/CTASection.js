@@ -15,8 +15,8 @@ function CTASection() {
 
         <Box sx={{display:"flex",alignItems:"center",gap:{xs:2,sm:3},flexDirection:{xs:"column-reverse",sm:"row"},justifyContent:"center",mt:"25px"}}>
 
-         <Button variant="contained" sx={{border:"1px solid #D0D5DD",backgroundColor:"white",color:"#344054",width:{xs:"100%",sm:"25%",md:"15%"},padding:"08px 20px",textTransform:"none","&:hover" : {backgroundColor:"white"}}}>Learn More</Button>
-         <Button variant="contained" sx={{backgroundColor:"#7F56D9",width:{xs:"100%",sm:"25%",md:"15%"},padding:"08px 20px",textTransform:"none","&:hover" : {backgroundColor:"#7F56D9"}}}>Get Started</Button>
+         <Button variant="contained" sx={{border:"1px solid #D0D5DD",backgroundColor:"white",color:"#344054",width:{xs:"100%",sm:"25%",md:"17%"},padding:"08px 20px",textTransform:"none","&:hover" : {backgroundColor:"white"}}}>Learn More</Button>
+         <Button variant="contained" sx={{backgroundColor:"#7F56D9",width:{xs:"100%",sm:"25%",md:"17%"},padding:"08px 20px",textTransform:"none","&:hover" : {backgroundColor:"#7F56D9"}}}>Get Started</Button>
 
          </Box>
 
