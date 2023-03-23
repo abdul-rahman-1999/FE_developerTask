@@ -26,12 +26,12 @@ function HeroSection() {
 
   </Box>
 
-   <Box sx={{display:"flex",justifyContent:"center"}}>
+   <Box sx={{display:"flex",justifyContent:"center",flexDirection:"column"}}>
 
       <Box
         component="img"
         sx={{
-            margin:"60px 0px 0px 0px",
+            margin:"60px auto 0px auto",
           objectFit:'cover',
           objectPosition:'center',
           width: { xs: '90%', md: '70%' },
@@ -39,6 +39,7 @@ function HeroSection() {
         alt="The house from the offer."
         src="/images\mac.png"
         />
+
 
    </Box>
 

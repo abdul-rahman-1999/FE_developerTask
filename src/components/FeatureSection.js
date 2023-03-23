@@ -8,7 +8,7 @@ function FeatureSection() {
 
   {/* Features Heading */}
 
-  <Box sx={{padding:{xs:"40px 20px",sm:"60px 20px"},borderBottom:"1px solid #F2F2F2"}}>
+  <Box sx={{padding:{xs:"40px 20px",sm:"60px 0px",md:"60px"},borderBottom:"1px solid #F2F2F2"}}>
   
    <Box sx={{textAlign:"center",display:"flex",flexDirection:"column",alignItems:"center"}}>
 
@@ -46,7 +46,7 @@ function FeatureSection() {
 
    {/* Features */}
 
-   <Box sx={{display:"flex",flexDirection:{xs:"column",sm:"row"},alignItems:"center",mt:{xs:"20px",sm:"40px"},justifyContent:"space-between",width:"90%",margin:"0px auto"}}>
+   <Box sx={{display:"flex",flexDirection:{xs:"column",sm:"row"},alignItems:"center",mt:{xs:"20px",sm:"40px"},justifyContent:"space-between",width:"95%",margin:"0px auto"}}>
 
     <Box sx={{width:{xs:"100%",sm:"31%",md:"30%"},textAlign:"center"}}>
  
