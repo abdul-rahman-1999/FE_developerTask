@@ -9,7 +9,7 @@ function Footer() {
   
   <Box sx={{padding:{xs:"40px 20px",sm:"60px 30px"}}}>
 
-   <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",width:{xs:"90%",sm:"85%"},margin:"0px auto",gap:4}}>
+   <Box sx={{display:"flex",alignItems:"center",justifyContent:{xs:"space-between",sm:"center",md:"space-between"},flexWrap:"wrap",width:{xs:"90%",sm:"85%"},margin:"0px auto",gap:5}}>
 
     <Box sx={{width:"125px"}}>
 

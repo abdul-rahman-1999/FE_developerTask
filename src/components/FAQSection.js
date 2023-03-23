@@ -28,7 +28,7 @@ function FAQSection() {
   }
   </Box>
   {
-    open === true ? <Typography sx={{fontSize:{xs:"14px",sm:"16px"},fontWeight:400,color:"#667085",lineHeight:"26px",fontFamily:"Inter",mt:2}}>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</Typography>
+    open === true ? <Typography sx={{fontSize:{xs:"14px",sm:"14px",md:"16px"},fontWeight:400,color:"#667085",lineHeight:"26px",fontFamily:"Inter",mt:2}}>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</Typography>
     :
     null
   }

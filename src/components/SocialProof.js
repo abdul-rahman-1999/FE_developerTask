@@ -8,9 +8,9 @@ function SocialProof() {
 
    <p style={{margin:"12px",color:"#667085",fontFamily:"Inter",fontWeight:500,textAlign:"center",fontSize:"14px"}}>Join 4,000+ companies already growing</p>
 
-   <Box sx={{display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap"}}>
+   <Box sx={{display:"flex",alignItems:"center",justifyContent:{xs:"space-between",sm:"center",md:"space-between"},flexWrap:"wrap"}}>
 
-<Box sx={{width:{xs:"50%",sm:"none"},textAlign:"center"}}>
+<Box sx={{width:{xs:"50%",sm:"20%",md:"20%"},textAlign:"center"}}>
    <Box
         component="img"
         sx={{
@@ -24,7 +24,7 @@ function SocialProof() {
         />
         </Box>
 
-<Box sx={{width:{xs:"50%",sm:"none"},textAlign:"center"}}>
+<Box sx={{width:{xs:"50%",sm:"20%",md:"20%"},textAlign:"center"}}>
 <Box
         component="img"
         sx={{
@@ -38,7 +38,7 @@ function SocialProof() {
         />
         </Box>
 
-<Box sx={{width:{xs:"50%",sm:"none"},textAlign:"center"}}>
+<Box sx={{width:{xs:"50%",sm:"20%",md:"20%"},textAlign:"center"}}>
 <Box
         component="img"
         sx={{
@@ -52,7 +52,7 @@ function SocialProof() {
         />
         </Box>
 
-<Box sx={{width:{xs:"50%",sm:"none"},textAlign:"center"}}>
+<Box sx={{width:{xs:"50%",sm:"20%",md:"20%"},textAlign:"center"}}>
 <Box
         component="img"
         sx={{
@@ -66,7 +66,7 @@ function SocialProof() {
         />
         </Box>
 
-<Box sx={{width:{xs:"50%",sm:"none"},textAlign:"center"}}>
+<Box sx={{width:{xs:"50%",sm:"20%",md:"20%"},textAlign:"center"}}>
 <Box
         component="img"
         sx={{
@@ -80,7 +80,7 @@ function SocialProof() {
         />
         </Box>
 
-<Box sx={{width:{xs:"50%",sm:"none"},textAlign:"center"}}>
+<Box sx={{width:{xs:"50%",sm:"20%",md:"20%"},textAlign:"center"}}>
 <Box
         component="img"
         sx={{
